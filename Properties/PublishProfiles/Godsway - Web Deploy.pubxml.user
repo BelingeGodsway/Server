@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project>
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <History>False|2024-10-29T09:13:43.3399619Z||;False|2024-10-29T10:09:48.4782209+01:00||;</History>
+    <LastFailureDetails />
+  </PropertyGroup>
+  <ItemGroup>
+    <EFMigrations Include="Server.Data.AppDbContext">
+      <Value>Server=tcp:serverdbserver4.database.windows.net,1433%3bInitial Catalog=Server_db%3bPersist Security Info=False%3bUser ID=Godsway%3bPassword=God2244%40%3bMultipleActiveResultSets=False%3bEncrypt=True%3bTrustServerCertificate=False%3b</Value>
+    </EFMigrations>
+  </ItemGroup>
+</Project>

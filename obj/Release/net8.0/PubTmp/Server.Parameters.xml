@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="IIS Web Application Name" description="" value="Godsway" tags="IisApp">
+    <parameterEntry kind="ProviderPath" scope="IisApp" match="^C:\\bizsapp\\Server\\obj\\Release\\net8\.0\\PubTmp\\Out\\$" />
+  </parameter>
+  <parameter name="Server.Data.AppDbContext" description="" value="Server=tcp:serverdbserver4.database.windows.net,1433;Initial Catalog=Server_db;Persist Security Info=False;User ID=Godsway;Password=God2244@;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;" tags="dbfullsql">
+    <parameterEntry kind="ProviderPath" scope="dbfullsql" match="^C:\\bizsapp\\Server\\obj\\Release\\net8\.0\\PubTmp\\EFSQLScripts\\Server\.Data\.AppDbContext\.sql$" />
+  </parameter>
+</parameters>
